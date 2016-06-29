@@ -205,8 +205,9 @@ void display(void)
 	////glPopMatrix();*/
 	//glutWireCube(1.0);
 	//glFlush();
-	glutSwapBuffers();
 	drawBoxes();
+	glutSwapBuffers();
+	
 }
 void reshape(int w, int h)
 {
