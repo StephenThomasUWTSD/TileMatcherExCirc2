@@ -1,10 +1,11 @@
 #pragma once
 #include "main.h"
-#include <vector>
+//#include <vector>
 #include "vector.h"
 class Box
 {
 public:
+	Box();
 	Box(GLfloat, GLfloat, GLfloat, GLfloat, GLfloat, GLfloat);
 	~Box();
 

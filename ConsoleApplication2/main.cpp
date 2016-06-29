@@ -1,6 +1,8 @@
 #include "main.h"
+#include "gameLoop.h"
 Loop game;
 
+Box selectB;
 static int theta = 0;
 int table[4][4];
 int firstSel = 0;
@@ -164,7 +166,7 @@ void display(void)
 	//  place camera - it rotates about the origin, on y = 5.0 plane,
 	// with a radius of 5.0; 0,0,0 - aim lens towards 0,0,0; 
 	//  0,1,0 - the up vector defines an unique orientation
-	/*
+	
 	for (int y = 0; y < 4; y++)
 	{
 		for (int x = 0; x < 4; x++)
@@ -187,12 +189,12 @@ void display(void)
 
 			}
 
-			drawBoxes();
+			selectB.draw();
 			glPopMatrix();
 		}
 
 	}
-	*/
+	
 	/////*drawHouse();
 	////glPushMatrix();
 	////glTranslatef(1.0, 0.0, 0.0);

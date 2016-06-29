@@ -9,8 +9,8 @@
 #include <cmath>
 //source files
 #include "glut.h"
-#include "box.h"
-#include "gameLoop.h"
+//#include "box.h"
+//#include "gameLoop.h"
 //#include "vector.h"
 
 

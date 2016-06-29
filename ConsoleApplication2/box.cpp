@@ -1,5 +1,9 @@
 #include "box.h"
-#include "main.h"
+//#include "main.h"
+Box::Box()
+{
+
+}
 Box::Box(GLfloat xPos, GLfloat yPos, GLfloat zPos, GLfloat red, GLfloat green, GLfloat blue) : position(0, 0, 0), BVposition(0, 0, 0) {
 	x = xPos;
 	y = yPos;
@@ -16,7 +20,7 @@ Box::Box(GLfloat xPos, GLfloat yPos, GLfloat zPos, GLfloat red, GLfloat green, G
 }
 
 void Box::draw() {
-	glutWireCube(1);
+	glutSolidCube(0.9);
 }
 
 
