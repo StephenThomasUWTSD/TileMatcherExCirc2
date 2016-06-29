@@ -1,6 +1,7 @@
 #ifndef VECTOR_H
 #define VECTOR_H
-#include "main.h"
+#pragma once
+//#include "main.h"
 class Vector
 {
 
