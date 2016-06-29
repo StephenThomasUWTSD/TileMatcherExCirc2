@@ -1,6 +1,7 @@
 #pragma once
 #include "main.h"
 #include <vector>
+#include "vector.h"
 class Box
 {
 public:
