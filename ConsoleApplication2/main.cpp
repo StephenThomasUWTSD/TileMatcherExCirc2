@@ -1,5 +1,5 @@
 #include "main.h"
-
+Loop game;
 
 static int theta = 0;
 int table[4][4];

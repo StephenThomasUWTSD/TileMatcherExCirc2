@@ -1,4 +1,5 @@
 #include "box.h"
+#include "main.h"
 Box::Box(GLfloat xPos, GLfloat yPos, GLfloat zPos, GLfloat red, GLfloat green, GLfloat blue) : position(0, 0, 0), BVposition(0, 0, 0) {
 	x = xPos;
 	y = yPos;

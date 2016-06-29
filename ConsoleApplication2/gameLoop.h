@@ -1,5 +1,7 @@
 #pragma once
 #include "main.h"
+#include "box.h"
+#include <vector>
 class Loop
 {
 private:
@@ -13,6 +15,7 @@ private:
 public:
 	Loop();
 	~Loop();
+	void ShuffleBoxes(void);
 	float randColour();
 	std::vector<Box> boxes;
 	std::vector<BoxPositions> boxPositions;

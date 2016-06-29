@@ -2,7 +2,6 @@
 #define VECTOR_H
 #include "main.h"
 class Vector
-
 {
 
 public:

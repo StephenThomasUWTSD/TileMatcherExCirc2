@@ -1,6 +1,6 @@
 
 #include "vector.h"
-
+#include "main.h"
 //construct
 Vector::Vector(float myx, float myy, float myz)
 {

@@ -6,6 +6,7 @@
 #include <ctime>
 #include <algorithm>
 #include <vector>
+#include <cmath>
 //source files
 #include "glut.h"
 #include "box.h"
@@ -21,4 +22,4 @@ void display(void);
 void drawHouse(void);
 void drawBoxes(void);
 //class instances
-Loop game;
+

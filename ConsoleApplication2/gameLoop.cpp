@@ -1,4 +1,5 @@
 #include "gameLoop.h"
+#include "main.h"
 
 
 
@@ -51,6 +52,21 @@ void Loop::GenerateBoxPositions() {
 		{
 			boxPositions.push_back({ x, z });
 		}
+	}
+}
+void Loop::ShuffleBoxes() {
+	if (!positionsGenerated)
+	{
+		positionsGenerated = true;
+		GenerateBoxPositions();
+	}
+
+	std::random_shuffle(boxPositions.begin(), boxPositions.end());
+
+	for (size_t boxIndex = 0; boxIndex < boxes.size(); boxIndex++)
+	{
+		boxes[boxIndex].x = boxPositions[boxIndex].x;
+		boxes[boxIndex].z = boxPositions[boxIndex].y;
 	}
 }
 
